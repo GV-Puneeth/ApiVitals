@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+server/node_modules/
+
+# Environment Variables & Secrets
+.env
+server/.env
+*.env.local
+
+# Local Documentation
+CHANGES.md
+
+# Build Outputs
+dist/
+frontend/dist/
+backend/target/
+*.jar
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
